@@ -1,0 +1,22 @@
+<!doctype html><html lang="es"><head>
+<meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>BLopa12 Fantasy Intelligence</title><script type="module" src="/src.js"></script>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#0b1020;color:#eef2ff}
+header{padding:24px 5%;background:linear-gradient(120deg,#121a35,#172554);display:flex;justify-content:space-between;align-items:center}
+h1{margin:0}.sub{color:#aab5d6}.wrap{max-width:1250px;margin:auto;padding:28px 5%}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px}
+.card{background:#151d36;border:1px solid #273454;border-radius:16px;padding:18px}.big{font-size:30px;font-weight:bold;margin-top:8px}
+button{background:#4f46e5;color:white;border:0;border-radius:10px;padding:11px 15px;font-weight:bold;cursor:pointer}.secondary{background:#263352}
+section{margin-top:28px}table{width:100%;border-collapse:collapse;background:#151d36;border-radius:16px;overflow:hidden}th,td{padding:13px;text-align:left;border-bottom:1px solid #273454}
+.good{color:#5eead4}.warn{color:#fbbf24}.bad{color:#fb7185}.pill{padding:5px 9px;border-radius:20px;background:#273454;font-size:12px}
+#upload{display:none}.toolbar{display:flex;gap:10px;flex-wrap:wrap;margin:16px 0}.note{font-size:13px;color:#aab5d6}
+</style></head><body>
+<header><div><h1>🏆 BLopa12 Fantasy Intelligence</h1><div class="sub">Mercado · Titularidad · Oportunidades · Pampi Watch 😈</div></div><span class="pill">V3 WEB</span></header>
+<div class="wrap">
+<div class="toolbar"><button id="sample">🔄 Cargar mi ejemplo</button><button class="secondary" onclick="document.getElementById('upload').click()">📂 Importar jugadores CSV</button><input id="upload" type="file" accept=".csv"/><button class="secondary" id="export">💾 Exportar análisis</button></div>
+<div class="grid" id="metrics"></div>
+<section><h2>🚀 Acciones recomendadas</h2><table><thead><tr><th>Jugador</th><th>Precio</th><th>Mercado</th><th>Titularidad</th><th>Score</th><th>Acción</th></tr></thead><tbody id="rows"></tbody></table></section>
+<section class="grid"><div class="card"><h2>😈 Pampi Watch</h2><div id="pampi">Añade la plantilla de Pampi en el siguiente módulo para detectar posiciones débiles y objetivos probables.</div></div>
+<div class="card"><h2>🎯 Estrategia BLopa12</h2><div id="strategy"></div></div></section>
+<section><div class="card"><h2>⚙️ Datos reales — siguiente conexión</h2><p>Esta web está lista para desplegarse en Vercel. El siguiente paso es conectar un backend/API autorizado que actualice precios, titulares, lesiones y calendario sin que tengas que importar CSV.</p><p class="note">No incluye automatización de compras, ventas o acceso a tu cuenta Fantasy.</p></div></section>
+</div></body></html>
