@@ -1,7 +1,13 @@
 {
-  "name":"blopa12-fantasy-intelligence",
-  "version":"3.0.0",
-  "private":true,
-  "scripts":{"dev":"vite --host 0.0.0.0","build":"vite","preview":"vite preview"},
-  "devDependencies":{"vite":"latest"}
+  "name": "blopa12-fantasy-intelligence",
+  "version": "3.0.0",
+  "private": true,
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite --host 0.0.0.0",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "latest"
+  }
 }
